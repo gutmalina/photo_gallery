@@ -10,9 +10,20 @@
 <body>
   <page class="page">
     <header class="header">
-      <a href="#"><img src="./images/header__logo.svg" alt="Логотип караоке-зала Харизма"></a>
+      <a href="#">
+        <img class="header__logo" src="./images/header__logo.svg" alt="Логотип караоке-зала Харизма">
+      </a>
       <nav class="header__nav">
-        <a class="header__adress" href="#"></a>
+        <article class="header__nav_container">
+          <a class="header__icons header__icons_type_phone" href="#"></a>
+          <p class="header__subtitle header__subtitle_style_ligth">+38 (097) 970-90-90</p>
+        </article>
+        <article class="header__nav_container">
+          <a class="header__icons header__icons_type_adress" href="#"></a>
+          <p class="header__subtitle header__subtitle_style_gold">м. Лубянка</p>
+        </article>
+        <button type="button" class="btn__type_header btn__style_dark">Наши залы</button>
+        <button type="button" class="btn__type_header btn__style_ligth">Забронировать</button>
         <div class="header__burger">
           <span></span>
           <span></span>
@@ -42,7 +53,7 @@
           </figure>
         </ul>
         <img class="lead__tag" src="./images/lead__tag.svg" alt="Бирка Можно шуметь круглосуточно">
-        <button type="" class="btn__type_lead btn__style_gold">Забронировать онлайн</button>
+        <button type="button" class="btn__type_lead btn__style_gold">Забронировать онлайн</button>
         <div class="lead__advantages">
           <article class="lead__card lead__card_style_ligth">
             <img src="./images/icons__lead_micro.svg" alt="">

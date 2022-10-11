@@ -1,0 +1,17 @@
+.btn__style_dark{
+  display: none;
+  background: inherit;
+  color: inherit;
+  border: 1px solid #393C43;
+}
+@media screen and (min-width: 768px){
+  .btn__style_dark{
+    display: inline;
+    margin-right: 24px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .btn__style_dark{
+    margin-right: 24px;
+  }
+}

@@ -1,66 +1,24 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
-body{
-  background: #131517;
-}
-*{
-  margin: 0;
-  padding: 0;
-  font-family: 'Muller', sans-serif;
-  font-style: normal;
-  box-sizing: border-box;
-}
-.page {
-  min-width: 360px;
-  max-width: 1920px;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  color: #FFFFFF
-}
-a {
-  text-decoration: none;
-  color: inherit;
-}
-button{
-  border: none;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url(../blocks/page/page.css);
 
-.header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 19px 22px 11px 12px;
-  background: #191B20;
-}
-.header__nav{
-  display: flex;
-  align-items: center;
-}
-.header__adress{
-  width: 51px;
-  height: 51px;
-  background: rgba(255, 255, 255, 0.07);
-  border-radius: 40px;
-  background-image: url(../images/icons__adress.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 30px;
-}
-.header__burger{
-  display: flex;
-  flex-direction: column;
-}
-.header__burger span{
-  background: #F69020;
-  border-radius: 3px;
-  width: 29px;
-  height: 3px;
-  margin-bottom: 6px;
-}
+@import url(../blocks/btn/__type/_header/btn__type_header.css);
+@import url(../blocks/btn/__style/_dark/btn__style_dark.css);
+@import url(../blocks/btn/__style/_ligth/btn__style_ligth.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__nav/_container/header__nav_container.css);
+@import url(../blocks/header/__icons/header__icons.css);
+@import url(../blocks/header/__icons/_type/_adress/header__icons_type_adress.css);
+@import url(../blocks/header/__icons/_type/_phone/header__icons_type_phone.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__subtitle/_style/_gold/header__subtitle_style_gold.css);
+@import url(../blocks/header/__burger/header__burger.css);
+
+
 .lead{
   background-image: url(../images/led__fon.png);
   box-shadow: inset -31px 0px 121px 120px #191B20;

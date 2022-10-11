@@ -1,0 +1,27 @@
+body{
+  background: #131517;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Muller', sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+}
+.page {
+  min-width: 360px;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: #FFFFFF
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button{
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+}
