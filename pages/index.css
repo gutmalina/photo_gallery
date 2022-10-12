@@ -34,6 +34,10 @@
   bottom: 98px;
   z-index: 2;
 }
+@media screen and (min-width: 1280px){
+  .lead__img{}
+}
+
 .lead__subtitle{
   font-weight: 400;
   font-size: 18px;
@@ -43,6 +47,32 @@
   z-index: 3;
   margin: 41px 90px 12px 20px;
 }
+@media screen and (min-width: 480px){
+  .lead__subtitle{
+    font-size: 25px;
+    line-height: 140%;
+  }
+}
+@media screen and (min-width: 768px){
+  .lead__subtitle{
+    font-size: 30px;
+    line-height: 160%;
+  }
+}
+@media screen and (min-width: 1024px){
+  .lead__subtitle{
+    font-size: 35px;
+    line-height: 180%;
+  }
+}
+@media screen and (min-width: 1280px){
+  .lead__subtitle{
+    font-size: 41px;
+    line-height: 200%;
+    margin: 97px 0 13px 51px;
+  }
+}
+
 .lead__title{
   font-weight: 900;
   font-size: 36px;
@@ -52,6 +82,36 @@
   z-index: 3;
   margin: 0 0 8px 17px;
   white-space: pre-line;
+}
+@media screen and (min-width: 480px){
+  .lead__title{
+    font-size: 42px;
+    line-height: 130%;
+    white-space: normal;
+    max-width: 460px;
+  }
+}
+@media screen and (min-width: 768px){
+  .lead__title{
+    font-size: 50px;
+    line-height: 128%;
+    max-width: 550px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .lead__title{
+    font-size: 65px;
+    line-height: 126%;
+    max-width: 750px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .lead__title{
+    font-size: 75px;
+    line-height: 125%;
+    max-width: 850px;
+    margin: 0 0 49px 52px;
+  }
 }
 .lead__adress{
   background: #343A3E;
@@ -66,10 +126,44 @@
   z-index: 3;
   margin: 0 0 25px 20px;
 }
+@media screen and (min-width: 768px){
+  .lead__adress{
+    position: absolute;
+    top: 179px;
+    left: 426px;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1024px){
+  .lead__adress{
+    top: 219px;
+    left: 571px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .lead__adress{
+    padding: 7px 0 6px;
+    top: 309px;
+    left: 686px;
+  }
+}
+
 .lead__want{
   z-index: 3;
-  margin: 0 160px 126px 20px;
+  margin: 0 0 126px 20px;
 }
+@media screen and (min-width: 768px){
+  .lead__want{
+    display: flex;
+  }
+}
+@media screen and (min-width: 1280px){
+  .lead__want{
+    margin: 0 0 73px 55px;
+  }
+}
+
+
 .lead__item{
   display: flex;
   align-items: center;
@@ -78,56 +172,190 @@
   line-height: 138%;
   letter-spacing: 0.03em;
   margin-bottom: 15px;
+  white-space: pre-line;
 }
 .lead__item img{
   margin-right: 8px;
 }
+.lead__item:last-of-type{
+  max-width: 100px;
+}
+@media screen and (min-width: 480px){
+  .lead__item{
+    font-size: 14px;
+    line-height: 137%;
+  }
+  .lead__item:last-of-type{
+    white-space: pre-line;
+    max-width: inherit;
+  }
+}
+@media screen and (min-width: 768px){
+  .lead__item{
+    font-size: 15px;
+    line-height: 135%;
+    margin-bottom: 0;
+  }
+  .lead__item img{
+    width: 45px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .lead__item{
+    font-size: 16px;
+    line-height: 134%;
+  }
+  .lead__item img{
+    width: 50px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .lead__item{
+    font-size: 18px;
+    line-height: 133%;
+    margin-right: 41px;
+  }
+  .lead__item img{
+    margin-right: 11px;
+  }
+}
+
 .lead__tag{
   z-index: 4;
   position: absolute;
   top: 394px;
   left: 57px;
 }
+@media screen and (min-width: 480px){
+  .lead__tag{
+    left: 134px;
+  }
+}
+@media screen and (min-width: 768px){
+    .lead__tag{
+      top: 263px;
+      left: 317px;
+  }
+}
+@media screen and (min-width: 1024px){
+    .lead__tag{
+      top: 257px;
+      left: 578px;
+  }
+}
+@media screen and (min-width: 1280px){
+    .lead__tag{
+      top: 362px;
+      left: 829px;
+      width: 460px;
+  }
+}
+
 .btn__type_lead{
   width: 223px;
   height: 50px;
   z-index: 3;
   margin: 0 0 33px 22px;
 }
+@media screen and (min-width: 768px){
+  .btn__type_lead{
+    width: 257px;
+    height: 60px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .btn__type_lead{
+    width: 277px;
+    height: 70px;
+    margin: 0 0 125px 52px;
+  }
+}
+
 .btn__style_gold{
   background: linear-gradient(93.25deg, #EA422A 0%, #F69020 48.58%, #FFC619 101.38%);
   border-radius: 60px;
   font-weight: 700;
   font-size: 11px;
-  line-height: 11px;
+  line-height: 100%;
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #252121;
 }
+@media screen and (min-width: 768px){
+  .btn__style_gold{
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .btn__style_gold{
+    font-size: 13px;
+  }
+}
+
 .lead__advantages{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   z-index: 3;
 }
+@media screen and (min-width: 768px){
+  .lead__advantages{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
 .lead__card{
   display: flex;
   flex-wrap: wrap;
 }
+.lead__card img{
+  margin: 12px 10px 0 20px;
+}
+@media screen and (min-width: 480px){}
+@media screen and (min-width: 768px){
+  .lead__card:last-of-type{
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .lead__card img{
+    width: 50px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .lead__card img{
+    width: 60px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .lead__card img{
+    width: 70px;
+  }
+}
+
 .lead__card_style_ligth{
   background: #282B32;
 }
 .lead__card_style_dark{
   background: #202124;
 }
-.lead__card img{
-  margin: 12px 10px 0 20px;
-}
+
 .lead__card_line{
   width: 18px;
   border-top: 1px solid rgba(255, 198, 25, 0.3);
   margin-top: 30px;
 }
+@media screen and (min-width: 768px){
+  .lead__card_line{
+    width: 26px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .lead__card_line{
+    width: 34px;
+  }
+}
+
 .lead__card_subtitle{
   font-weight: 400;
   font-size: 14px;
@@ -135,6 +363,19 @@
   letter-spacing: 0.03em;
   margin: 6px 0 9px 25px;
 }
+@media screen and (min-width: 768px){
+  .lead__card_subtitle{
+    font-size: 15px;
+    line-height: 142%;
+  }
+}
+@media screen and (min-width: 1280px){
+  .lead__card_subtitle{
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
 .lead__line{
   height: 677px;
   border: 1px solid #FFFFFF;
@@ -148,3 +389,9 @@
 .lead__line_type_left{
   left: 68px;
 }
+
+
+@media screen and (min-width: 480px){}
+@media screen and (min-width: 768px){}
+@media screen and (min-width: 1024px){}
+@media screen and (min-width: 1280px){}
