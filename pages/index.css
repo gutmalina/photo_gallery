@@ -28,21 +28,51 @@
   margin-bottom: 500px;
 }
 .lead__img{
-  background: url(../images/lead__img_big.svg) no-repeat;
-  background-size: 91%;
-  background-position: bottom 101px left 107px;
+  position: absolute;
+  top: 195px;
+  right: 0px;
+  width: 330px;
+  height: 590px;
+  background: url(../images/lead__img.svg) no-repeat;
+  background-position: right;
   z-index: 2;
 }
 @media screen and (min-width: 480px){
   .lead__img{
-    background-size: 427px;
+    top: 105px;
+    height: 667px;
+    background-size: 90%;
+  }
+}
+@media screen and (min-width: 768px){
+  .lead__img{
+    top: -40px;
+    height: 690px;
+    background-size: 93%;
+  }
+}
+@media screen and (min-width: 1024px){
+  .lead__img{
+    background: url(../images/lead__img_big.svg) no-repeat;
+    background-size: 135%;
   }
 }
 @media screen and (min-width: 1280px){
   .lead__img{
-    background-size: 701px;
-    background-position: top 26% right 274px;
+    background-size: 145%;
   }
+}
+@media screen and (min-width: 1920px){
+  .lead__img{
+    background-size: auto;
+    top: -97px;
+    right: 274px;
+    width: 700px;
+    height: 970px;
+  }
+}
+.lead__container{
+  z-index: 3;
 }
 
 
@@ -52,7 +82,7 @@
   line-height: 128%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin: 40px 90px 11px 20px;
+  margin: 40px 90px 14px 20px;
 }
 @media screen and (min-width: 480px){
   .lead__subtitle{
@@ -239,31 +269,37 @@
 
 .lead__tag{
   background: url(../images/lead__tag.svg) no-repeat center;
-  background-size: 100%;
-  width: 66%;
+  width: 250px;
   height: 270px;
   position: absolute;
-  top: 378px;
-  right: 62px;
+  left: 55px;
+  top: 382px;
 }
 @media screen and (min-width: 480px){
   .lead__tag{
+    left: 162px;
+    top: 336px;
   }
 }
 @media screen and (min-width: 768px){
     .lead__tag{
+      left: 351px;
+      top: 299px;
   }
 }
 @media screen and (min-width: 1024px){
     .lead__tag{
+      background: url(../images/lead__tag_big.svg) no-repeat center;
+      background-size: 107%;
+      left: 644px;
   }
 }
 @media screen and (min-width: 1280px){
     .lead__tag{
-      background: url(../images/lead__tag_big.svg) no-repeat center;
-      height: 320px;
-      top: 418px;
-      right: 228px;
+      width: 375px;
+      height: 375px;
+      left: 871px;
+      top: 391px;
   }
 }
 
