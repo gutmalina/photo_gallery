@@ -1,11 +1,12 @@
-# xarizma
-Xarizma - лендинг караоке-клуба
+# Галерея фотографий
 
 ### Стэк:
 * CSS
 * HTML
-* файловая структура по БЭМ
+* JavaScript
+
+## Функциональность:
+* выбранная карточка разворачивается
 
 ### Ссылки:
-* :mag_right: [Открыть проект](https://gutmalina.github.io/xarizma/)
-* :pushpin:   [Макет в Figma](https://www.figma.com/file/vEhY4P8R4O73k4Nrx5WnTg/Караоке-клуб-%2B?node-id=0%3A1)
+* :mag_right: [Открыть проект]()
