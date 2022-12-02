@@ -1,3 +1,4 @@
+/** gallery1 */
 const slidesGrowing = document.querySelectorAll('.slide-growing');
 
 for(const slide of slidesGrowing){
@@ -13,6 +14,6 @@ function clearActiveClasses(){
   })
 };
 
-const slidesOverlap = document.querySelectorAll('.slide-overlap');
+
 
 
